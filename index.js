@@ -33,7 +33,7 @@ async function requestJoke() {
     const api_key = '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'  
     const requestBody = {
         model: 'text-davinci-003',
-        prompt: 'Generate 100 user objects in json format. objects should contain name, age, id and email. email domains should be random',
+        prompt: 'Generate  50  user objects in json format as you can without exceeding lenght or max tokens. objects should contain name, age, id and email. email domains should be random',
         max_tokens: 4000,
         // temperature: 0.5,
     };
